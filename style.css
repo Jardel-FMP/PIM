@@ -80,6 +80,13 @@ p {
   border-radius: 2px;
 }
 
+.section-subtitle {
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 60px;
+  font-size: 1.1rem;
+}
+
 /* Header */
 header {
   background-color: white;
@@ -91,7 +98,6 @@ header {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 15px 0;
 }
