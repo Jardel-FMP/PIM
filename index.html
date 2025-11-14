@@ -8,13 +8,14 @@
   </head>
   <body>
     <!-- Header -->
-    <header style="display: flex; justify-content:end; align-items: center;">
-      <div class="container header-container">
+    <header style="display: flex; justify-content: center;">
+      <div class="header-container">
         <div class="logo">
             <img class="logo-icon" src="/src/img/PIM sem fundo.png" style="height: 52px;">
             <div class="logo-text">Policlínica Inova Mentes</div>
         </div>
-        <nav style="text-align: center;">
+        <!--<hr style="width: 50vh; border: 5px white;">-->
+        <nav>
           <ul style="display: flex; align-items: center;">
             <li><a href="#ods">Proposta de Valor</a></li>
             <li><a href="#recursos">Serviços</a></li>
@@ -23,9 +24,10 @@
             <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#equipe">Equipe</a></li>
             <li><a href="#contato" class="btn">Agendar</a></li>
-            <li><a href="https://brasil.un.org/pt-br/sdgs"><img src="src/img/ods-icon.png" alt="ods-icon" class="ods-click"></a></li>
+            <li></li>
           </ul>
         </nav>
+        <a href="https://brasil.un.org/pt-br/sdgs"><img src="src/img/ods-icon.png" alt="ods-icon" class="ods-click"></a>
       </div>
     </header>
 
@@ -40,10 +42,101 @@
         </p>
         <div class="hero-buttons">
           <a href="#secao-ods" class="btn btn-secondary">ODS</a>
-          <a href="#contato" class="btn">Agendar Avaliação</a>
         </div>
       </div>
     </section>
+
+    <section>
+      <div style="" class="texto-sla">
+        <div class="card-text">
+          <h1>Desafios (Nossa História)</h1>
+          <p>"Há histórias que merecem ser contadas. Há jornadas que precisam ser compartilhadas. Esta é uma delas.
+            Aos 3 anos, ele mostrou que enxergava o mundo através de lentes diferentes. Não era apenas uma criança - era um universo de possibilidades esperando para ser descoberto.
+            A busca por respostas levou-a a diversos especialistas. Cada consulta, cada laudo, cada relatório trazia um fragmento de entendimento. Mas no silêncio da intuição materna, ecoava uma certeza: havia mais por descobrir.
+            Os diagnósticos mostravam peças do quebra-cabeça, mas não revelavam a imagem completa do potencial que ela via brilhar todos os dias.
+            A virada aconteceu quando a necessidade encontrou a inovação.
+            Das pesquisas solitárias surgiu um caminho. Das barreiras encontradas, nasceu a determinação. E na disciplina de Prática e Programação Web, encontramos a chave para transformar desafios em soluções."</p>
+        </div>
+        <div class="card-text">
+          <h1>Proposta de Valor</h1>
+          <p>Não Estamos Criando Apenas uma Plataforma. Estamos Construindo Pontes
+            Para todos os profissionais que já sentiram que:
+            
+            O sistema atual não alcança todo o potencial
+            
+            As ferramentas existentes são insuficientes
+            
+            Cada mente brilhante merece um caminho único de desenvolvimento
+            
+            Este projeto é para você.</p>
+            <br style="padding: 5vh;">
+          </div>
+      </div>
+    </section>
+
+  <!-- ODS -->
+    
+  <section class="ods-section" id="secao-ods">
+    <h2 class="section-title">Objetivo de Desenvolvimento Sustentável</h2>
+    <div class="cards-ods">
+        <div class="ods-cards">
+            <a href="https://brasil.un.org/pt-br/sdgs/3">
+                <img src="/src/img/ods3.webp"  alt="Img ods 3">
+            </a>
+        </div>
+        <div class="ods-cards">
+            <a href="https://brasil.un.org/pt-br/sdgs/4">
+                <img src="/src/img/ods4.webp"  alt="Img ods 3">
+            </a>
+        </div>
+        <div class="ods-cards">
+            <a href="https://brasil.un.org/pt-br/sdgs/10">
+                <img src="/src/img/ods10.webp"  alt="Img ods 3">
+            </a>
+        </div>
+    </div>
+    
+</section>
+ <!-- How It Works -->
+ <section class="how-it-works" id="funcionamento">
+  <div class="container">
+    <h2 class="section-title">Como Funciona</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Agendamento</h3>
+        <p>
+          Entre em contato para agendar uma consulta inicial com nossa
+          equipe especializada.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Avaliação</h3>
+        <p>
+          Realizamos avaliação completa com psicólogos, pedagogos e
+          neuropsicólogos.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Diagnóstico</h3>
+        <p>
+          Elaboramos um laudo detalhado com as potencialidades e
+          necessidades específicas.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Acompanhamento</h3>
+        <p>
+          Desenvolvemos um plano de intervenção personalizado com
+          acompanhamento contínuo.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Features Section -->
     <section class="features" id="recursos">
@@ -102,73 +195,11 @@
       </div>
     </section>
 
-    <!-- How It Works -->
-    <section class="how-it-works" id="funcionamento">
-      <div class="container">
-        <h2 class="section-title">Como Funciona</h2>
-        <div class="steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Agendamento</h3>
-            <p>
-              Entre em contato para agendar uma consulta inicial com nossa
-              equipe especializada.
-            </p>
-          </div>
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Avaliação</h3>
-            <p>
-              Realizamos avaliação completa com psicólogos, pedagogos e
-              neuropsicólogos.
-            </p>
-          </div>
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Diagnóstico</h3>
-            <p>
-              Elaboramos um laudo detalhado com as potencialidades e
-              necessidades específicas.
-            </p>
-          </div>
-          <div class="step">
-            <div class="step-number">4</div>
-            <h3>Acompanhamento</h3>
-            <p>
-              Desenvolvemos um plano de intervenção personalizado com
-              acompanhamento contínuo.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section>
-        <h2 class="section-title">Proposta de valor</h2>
-        <p class="section-subtitle">Nossa missão é identificar, apoiar e potencializar o desenvolvimento de crianças e adolescentes com altas habilidades/superdotação, promovendo seu bem-estar emocional e sucesso acadêmico.</p>
+   
 
-    </section>
-    <section class="ods-section" id="secao-ods">
-        <h2 class="section-title">Objetivo de Desenvolvimento Sustentável</h2>
-        <div class="cards-ods">
-            <div class="ods-cards">
-                <a href="https://brasil.un.org/pt-br/sdgs/3">
-                    <img src="/src/img/ods3.webp"  alt="Img ods 3">
-                </a>
-            </div>
-            <div class="ods-cards">
-                <a href="https://brasil.un.org/pt-br/sdgs/4">
-                    <img src="/src/img/ods4.webp"  alt="Img ods 3">
-                </a>
-            </div>
-            <div class="ods-cards">
-                <a href="https://brasil.un.org/pt-br/sdgs/10">
-                    <img src="/src/img/ods10.webp"  alt="Img ods 3">
-                </a>
-            </div>
-        </div>
-        
-    </section>
+    
+  
+     
     <!-- Statistics Section -->
     <section class="statistics" id="estatisticas">
       <div class="container">
@@ -214,6 +245,36 @@
         </div>
       </div>
     </section>
+
+    <!-- Team Section -->
+    <section class="team" id="equipe">
+      <div class="container">
+        <h2 class="section-title">Nossa Equipe</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-avatar">CEO</div>
+            <h3>Rose</h3>
+            <p>Fundadora e Desenvolvedora</p>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar">DEV</div>
+            <h3>Romeu</h3>
+            <p>Desenvolvedor e Designer</p>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar">DEV</div>
+            <h3>Jardel</h3>
+            <p>Desenvolvedor Full Stack</p>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar">Analista</div>
+            <h3>Douglas</h3>
+            <p>Analista e CopyWriter</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Testimonials -->
     <section class="testimonials" id="depoimentos">
@@ -267,54 +328,7 @@
       </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="team" id="equipe">
-      <div class="container">
-        <h2 class="section-title">Nossa Equipe</h2>
-        <div class="team-grid">
-          <div class="team-member">
-            <div class="member-avatar">CEO</div>
-            <h3>Rose</h3>
-            <p>Fundadora e Desenvolvedora</p>
-          </div>
-          <div class="team-member">
-            <div class="member-avatar">DEV</div>
-            <h3>Romeu</h3>
-            <p>Desenvolvedor e Designer</p>
-          </div>
-          <div class="team-member">
-            <div class="member-avatar">DEV</div>
-            <h3>Jardel</h3>
-            <p>Desenvolvedor Full Stack</p>
-          </div>
-          <div class="team-member">
-            <div class="member-avatar">Analista</div>
-            <h3>Douglas</h3>
-            <p>Analista e CopyWriter</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-     <!-- Contatos -->
-    <section class="ctts">
-        <div class="container">
-            <h2 class="section-title">Contatos</h2>
-            <div class="contatos-cards" style="text-align: center;">
-                <div class="card-ctt">
-                    <img src="/src/img/instagram-icon.png" style="height: 3vh;">
-                    <a href="https://www.instagram.com/jardovisk_/" >jardovisk_</a>
-                </div>
-                <div class="card-ctt">
-                    <img src="/src/img/facebook-icon.png" style="height: 3vh;">
-                    <a href="">Facebook</a>
-                </div>
-                <div class="card-ctt">
-                    <img src="/src/img/linkedin-icon.png" style="height: 3vh;">
-                    <a href="">LinkedIn</a>
-                </div>
-            </div>
-    </section>
+    arquitetura e tecnologia do desenvolvimento e futuro e parte Aprendizado da Equipe
 
     <!-- CTA Section -->
     <section class="cta" id="contato">
@@ -363,6 +377,9 @@
               </li>
               <li><a href="tel:+551199999999">(48) 3242-0000</a></li>
               <li>Palhoça, SC</li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">LinkedIn</a></li>
             </ul>
           </div>
         </div>

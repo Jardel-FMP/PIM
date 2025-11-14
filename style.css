@@ -274,7 +274,7 @@ nav a:hover {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
 
@@ -488,6 +488,38 @@ footer {
   color: #bbb;
   font-size: 0.9rem;
 }
+
+.desafios{
+  text-align: center;
+  margin-right: 15vh;
+  margin-left: 15vh;
+  font-size: 1.2rem;
+}
+
+.texto-sla{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 50px;
+  max-width: 70vh;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+
+}
+
 
 /* Responsividade */
 @media (max-width: 768px) {
