@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 98%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
@@ -42,11 +42,11 @@ p {
 
 .btn {
   display: inline-block;
-  padding: 12px 25px;
+  padding: 6px 13px;
   background-color: var(--primary);
   color: white;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 10px;
   font-weight: 600;
   transition: all 0.3s ease;
   border: none;
@@ -82,9 +82,9 @@ p {
 
 .section-subtitle {
   text-align: center;
-  color: var(--text);
-  margin-bottom: 60px;
-  font-size: 1.1rem;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 /* Header */
@@ -99,7 +99,7 @@ header {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 15px 0;
+
 }
 
 .logo {
@@ -114,9 +114,15 @@ header {
 }
 
 .logo-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
+  padding-right: 40px;
   color: var(--dark);
+}
+
+.ods-click{
+  max-height: 10vh;
+  padding-left: 10px;
 }
 
 nav ul {
@@ -230,9 +236,11 @@ nav a:hover {
 /*Section ODS */
 
 .ods-section {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 80px 0;
+  padding-bottom: 70px;
 }
 
 .ods-cards {
@@ -415,10 +423,12 @@ nav a:hover {
 }
 
 .contatos-cards {
+  
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 10vh;
+  
 }
 
 .card-ctt {
