@@ -99,7 +99,6 @@ header {
 .header-container {
   display: flex;
   align-items: center;
-
 }
 
 .logo {
@@ -120,7 +119,7 @@ header {
   color: var(--dark);
 }
 
-.ods-click{
+.ods-click {
   max-height: 10vh;
   padding-left: 10px;
 }
@@ -236,7 +235,7 @@ nav a:hover {
 /*Section ODS */
 
 .ods-section {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 80px 0;
@@ -418,17 +417,15 @@ nav a:hover {
 
 /* Contacts Section*/
 
-.ctts{
-    height: 35vh;
+.ctts {
+  height: 35vh;
 }
 
 .contatos-cards {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 10vh;
-  
 }
 
 .card-ctt {
@@ -438,9 +435,9 @@ nav a:hover {
   gap: 1vh;
 }
 
-.card-ctt a{
-    text-decoration: none;
-    color: #333;
+.card-ctt a {
+  text-decoration: none;
+  color: #333;
 }
 
 /* Footer */
@@ -489,16 +486,16 @@ footer {
   font-size: 0.9rem;
 }
 
-.desafios{
+.desafios {
   text-align: center;
   margin-right: 15vh;
   margin-left: 15vh;
   font-size: 1.2rem;
 }
 
-.texto-sla{
+.texto-sla {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: space-around;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -506,7 +503,7 @@ footer {
   margin-right: 5vh;
 }
 
-.card-text{
+.card-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -517,9 +514,22 @@ footer {
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-
 }
 
+/* Tecnlogias */
+
+.tecnologias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cards-tecnologias {
+}
+
+.cards-tecnologias img {
+  height: 100px;
+}
 
 /* Responsividade */
 @media (max-width: 768px) {
